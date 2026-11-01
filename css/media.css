@@ -1,0 +1,158 @@
+/* =========================
+   Tablet Screen
+   ========================= */
+
+@media screen and (max-width: 992px) {
+
+    /* Hero Section */
+    .product-container {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .product-info,
+    .product-picture {
+        width: 48%;
+    }
+
+    /* Features Section */
+    .feature-card {
+        width: 30%;
+    }
+
+    /* Reviews Section */
+    .review-container {
+        flex-wrap: wrap;
+    }
+
+    .rating-summary {
+        width: 100%;
+    }
+
+    .customer-reviews {
+        width: 100%;
+    }
+
+    .customer-card {
+        width: 48%;
+        box-sizing: border-box;
+    }
+
+    /* Related Products */
+    .setup-card {
+        width: 47%;
+    }
+
+    /* Footer */
+    .footer-about {
+        width: 40%;
+    }
+
+    .footer-links {
+        width: 25%;
+    }
+}
+
+
+/* =========================
+   Mobile Screen
+   ========================= */
+
+@media screen and (max-width: 600px) {
+
+    /* General */
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Hero Section */
+    .product-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-info,
+    .product-picture {
+        width: 100%;
+    }
+
+    .product-info h1 {
+        font-size: 28px;
+    }
+
+    .product-buttons {
+        flex-wrap: wrap;
+    }
+
+    /* Features Section */
+    .features-container {
+        flex-direction: column;
+    }
+
+    .feature-card {
+        width: 100%;
+    }
+
+    /* Reviews Section */
+    .review-container {
+        flex-direction: column;
+    }
+
+    .rating-summary,
+    .customer-reviews {
+        width: 100%;
+    }
+
+    .customer-reviews {
+        flex-direction: column;
+    }
+
+    .customer-card {
+        width: 100%;
+    }
+
+    /* Related Products */
+    .setup-section {
+        width: 90%;
+    }
+
+    .setup-heading h2 {
+        font-size: 25px;
+    }
+
+    .setup-container {
+        flex-direction: column;
+    }
+
+    .setup-card {
+        width: 100%;
+    }
+
+    /* Footer */
+    .main-footer {
+        padding: 35px 6% 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-about,
+    .footer-links {
+        width: 100%;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .payment-methods {
+        flex-wrap: wrap;
+    }
+
+    /* Buttons */
+    .view-accessories button {
+        max-width: 90%;
+    }
+}
